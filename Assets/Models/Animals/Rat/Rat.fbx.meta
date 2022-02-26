@@ -1,0 +1,853 @@
+fileFormatVersion: 2
+guid: 9dfd53700ae31a640aef16025802e9d0
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: Back
+    100002: BackFoot.L
+    100004: BackFoot.L_end
+    100006: BackFoot.R
+    100008: BackFoot.R_end
+    100010: BackLeg.L
+    100012: BackLeg.R
+    100014: BackLowLeg.L
+    100016: BackLowLeg.L_end
+    100018: BackLowLeg.R
+    100020: BackLowLeg.R_end
+    100022: BackUpLeg.L
+    100024: BackUpLeg.R
+    100026: Body
+    100028: FrontFoot.L
+    100030: FrontFoot.L_end
+    100032: FrontFoot.R
+    100034: FrontFoot.R_end
+    100036: FrontLeg.L
+    100038: FrontLeg.R
+    100040: FrontLowLeg.L
+    100042: FrontLowLeg.L_end
+    100044: FrontLowLeg.R
+    100046: FrontLowLeg.R_end
+    100048: FrontUpLeg.L
+    100050: FrontUpLeg.R
+    100052: Head
+    100054: Head_end
+    100056: Hips
+    100058: Neck
+    100060: //RootNode
+    100062: Rat
+    100064: RatArmature
+    100066: root
+    100068: Shoulders
+    100070: Tail1
+    100072: Tail2
+    100074: Tail3
+    100076: Tail4
+    100078: Tail5
+    100080: Tail6
+    100082: Tail7
+    100084: Tail7_end
+    100086: Torso
+    100088: Torso_end
+    400000: Back
+    400002: BackFoot.L
+    400004: BackFoot.L_end
+    400006: BackFoot.R
+    400008: BackFoot.R_end
+    400010: BackLeg.L
+    400012: BackLeg.R
+    400014: BackLowLeg.L
+    400016: BackLowLeg.L_end
+    400018: BackLowLeg.R
+    400020: BackLowLeg.R_end
+    400022: BackUpLeg.L
+    400024: BackUpLeg.R
+    400026: Body
+    400028: FrontFoot.L
+    400030: FrontFoot.L_end
+    400032: FrontFoot.R
+    400034: FrontFoot.R_end
+    400036: FrontLeg.L
+    400038: FrontLeg.R
+    400040: FrontLowLeg.L
+    400042: FrontLowLeg.L_end
+    400044: FrontLowLeg.R
+    400046: FrontLowLeg.R_end
+    400048: FrontUpLeg.L
+    400050: FrontUpLeg.R
+    400052: Head
+    400054: Head_end
+    400056: Hips
+    400058: Neck
+    400060: Rat
+    400062: //RootNode
+    400064: RatArmature
+    400066: root
+    400068: Shoulders
+    400070: Tail1
+    400072: Tail2
+    400074: Tail3
+    400076: Tail4
+    400078: Tail5
+    400080: Tail6
+    400082: Tail7
+    400084: Tail7_end
+    400086: Torso
+    400088: Torso_end
+    4300000: Rat
+    7400000: RatArmature|Rat_Attack
+    7400002: RatArmature|Rat_Death
+    7400004: RatArmature|Rat_Idle
+    7400006: RatArmature|Rat_Jump
+    7400008: RatArmature|Rat_Run
+    7400010: RatArmature|Rat_Walk
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Rat
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: RatArmature|Rat_Attack
+      takeName: RatArmature|Rat_Attack
+      firstFrame: 0
+      lastFrame: 16
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Rat
+        weight: 1
+      - path: RatArmature
+        weight: 1
+      - path: RatArmature/root
+        weight: 1
+      - path: RatArmature/root/BackFoot.L
+        weight: 1
+      - path: RatArmature/root/BackFoot.L/BackFoot.L_end
+        weight: 1
+      - path: RatArmature/root/BackFoot.R
+        weight: 1
+      - path: RatArmature/root/BackFoot.R/BackFoot.R_end
+        weight: 1
+      - path: RatArmature/root/Body
+        weight: 1
+      - path: RatArmature/root/Body/Back
+        weight: 1
+      - path: RatArmature/root/Body/Back/Tail1
+        weight: 1
+      - path: RatArmature/root/Body/Back/Tail1/Tail2
+        weight: 1
+      - path: RatArmature/root/Body/Back/Tail1/Tail2/Tail3
+        weight: 1
+      - path: RatArmature/root/Body/Back/Tail1/Tail2/Tail3/Tail4
+        weight: 1
+      - path: RatArmature/root/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5
+        weight: 1
+      - path: RatArmature/root/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6
+        weight: 1
+      - path: RatArmature/root/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6/Tail7
+        weight: 1
+      - path: RatArmature/root/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6/Tail7/Tail7_end
+        weight: 1
+      - path: RatArmature/root/Body/BackLeg.L
+        weight: 1
+      - path: RatArmature/root/Body/BackLeg.L/BackUpLeg.L
+        weight: 1
+      - path: RatArmature/root/Body/BackLeg.L/BackUpLeg.L/BackLowLeg.L
+        weight: 1
+      - path: RatArmature/root/Body/BackLeg.L/BackUpLeg.L/BackLowLeg.L/BackLowLeg.L_end
+        weight: 1
+      - path: RatArmature/root/Body/BackLeg.R
+        weight: 1
+      - path: RatArmature/root/Body/BackLeg.R/BackUpLeg.R
+        weight: 1
+      - path: RatArmature/root/Body/BackLeg.R/BackUpLeg.R/BackLowLeg.R
+        weight: 1
+      - path: RatArmature/root/Body/BackLeg.R/BackUpLeg.R/BackLowLeg.R/BackLowLeg.R_end
+        weight: 1
+      - path: RatArmature/root/Body/FrontLeg.L
+        weight: 1
+      - path: RatArmature/root/Body/FrontLeg.L/FrontUpLeg.L
+        weight: 1
+      - path: RatArmature/root/Body/FrontLeg.L/FrontUpLeg.L/FrontLowLeg.L
+        weight: 1
+      - path: RatArmature/root/Body/FrontLeg.L/FrontUpLeg.L/FrontLowLeg.L/FrontLowLeg.L_end
+        weight: 1
+      - path: RatArmature/root/Body/FrontLeg.R
+        weight: 1
+      - path: RatArmature/root/Body/FrontLeg.R/FrontUpLeg.R
+        weight: 1
+      - path: RatArmature/root/Body/FrontLeg.R/FrontUpLeg.R/FrontLowLeg.R
+        weight: 1
+      - path: RatArmature/root/Body/FrontLeg.R/FrontUpLeg.R/FrontLowLeg.R/FrontLowLeg.R_end
+        weight: 1
+      - path: RatArmature/root/Body/Hips
+        weight: 1
+      - path: RatArmature/root/Body/Hips/Torso
+        weight: 1
+      - path: RatArmature/root/Body/Hips/Torso/Torso_end
+        weight: 1
+      - path: RatArmature/root/Body/Shoulders
+        weight: 1
+      - path: RatArmature/root/Body/Shoulders/Neck
+        weight: 1
+      - path: RatArmature/root/Body/Shoulders/Neck/Head
+        weight: 1
+      - path: RatArmature/root/Body/Shoulders/Neck/Head/Head_end
+        weight: 1
+      - path: RatArmature/root/FrontFoot.L
+        weight: 1
+      - path: RatArmature/root/FrontFoot.L/FrontFoot.L_end
+        weight: 1
+      - path: RatArmature/root/FrontFoot.R
+        weight: 1
+      - path: RatArmature/root/FrontFoot.R/FrontFoot.R_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: RatArmature|Rat_Death
+      takeName: RatArmature|Rat_Death
+      firstFrame: 0
+      lastFrame: 26
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Rat
+        weight: 1
+      - path: RatArmature
+        weight: 1
+      - path: RatArmature/root
+        weight: 1
+      - path: RatArmature/root/BackFoot.L
+        weight: 1
+      - path: RatArmature/root/BackFoot.L/BackFoot.L_end
+        weight: 1
+      - path: RatArmature/root/BackFoot.R
+        weight: 1
+      - path: RatArmature/root/BackFoot.R/BackFoot.R_end
+        weight: 1
+      - path: RatArmature/root/Body
+        weight: 1
+      - path: RatArmature/root/Body/Back
+        weight: 1
+      - path: RatArmature/root/Body/Back/Tail1
+        weight: 1
+      - path: RatArmature/root/Body/Back/Tail1/Tail2
+        weight: 1
+      - path: RatArmature/root/Body/Back/Tail1/Tail2/Tail3
+        weight: 1
+      - path: RatArmature/root/Body/Back/Tail1/Tail2/Tail3/Tail4
+        weight: 1
+      - path: RatArmature/root/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5
+        weight: 1
+      - path: RatArmature/root/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6
+        weight: 1
+      - path: RatArmature/root/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6/Tail7
+        weight: 1
+      - path: RatArmature/root/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6/Tail7/Tail7_end
+        weight: 1
+      - path: RatArmature/root/Body/BackLeg.L
+        weight: 1
+      - path: RatArmature/root/Body/BackLeg.L/BackUpLeg.L
+        weight: 1
+      - path: RatArmature/root/Body/BackLeg.L/BackUpLeg.L/BackLowLeg.L
+        weight: 1
+      - path: RatArmature/root/Body/BackLeg.L/BackUpLeg.L/BackLowLeg.L/BackLowLeg.L_end
+        weight: 1
+      - path: RatArmature/root/Body/BackLeg.R
+        weight: 1
+      - path: RatArmature/root/Body/BackLeg.R/BackUpLeg.R
+        weight: 1
+      - path: RatArmature/root/Body/BackLeg.R/BackUpLeg.R/BackLowLeg.R
+        weight: 1
+      - path: RatArmature/root/Body/BackLeg.R/BackUpLeg.R/BackLowLeg.R/BackLowLeg.R_end
+        weight: 1
+      - path: RatArmature/root/Body/FrontLeg.L
+        weight: 1
+      - path: RatArmature/root/Body/FrontLeg.L/FrontUpLeg.L
+        weight: 1
+      - path: RatArmature/root/Body/FrontLeg.L/FrontUpLeg.L/FrontLowLeg.L
+        weight: 1
+      - path: RatArmature/root/Body/FrontLeg.L/FrontUpLeg.L/FrontLowLeg.L/FrontLowLeg.L_end
+        weight: 1
+      - path: RatArmature/root/Body/FrontLeg.R
+        weight: 1
+      - path: RatArmature/root/Body/FrontLeg.R/FrontUpLeg.R
+        weight: 1
+      - path: RatArmature/root/Body/FrontLeg.R/FrontUpLeg.R/FrontLowLeg.R
+        weight: 1
+      - path: RatArmature/root/Body/FrontLeg.R/FrontUpLeg.R/FrontLowLeg.R/FrontLowLeg.R_end
+        weight: 1
+      - path: RatArmature/root/Body/Hips
+        weight: 1
+      - path: RatArmature/root/Body/Hips/Torso
+        weight: 1
+      - path: RatArmature/root/Body/Hips/Torso/Torso_end
+        weight: 1
+      - path: RatArmature/root/Body/Shoulders
+        weight: 1
+      - path: RatArmature/root/Body/Shoulders/Neck
+        weight: 1
+      - path: RatArmature/root/Body/Shoulders/Neck/Head
+        weight: 1
+      - path: RatArmature/root/Body/Shoulders/Neck/Head/Head_end
+        weight: 1
+      - path: RatArmature/root/FrontFoot.L
+        weight: 1
+      - path: RatArmature/root/FrontFoot.L/FrontFoot.L_end
+        weight: 1
+      - path: RatArmature/root/FrontFoot.R
+        weight: 1
+      - path: RatArmature/root/FrontFoot.R/FrontFoot.R_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: RatArmature|Rat_Idle
+      takeName: RatArmature|Rat_Idle
+      firstFrame: 0
+      lastFrame: 57
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Rat
+        weight: 1
+      - path: RatArmature
+        weight: 1
+      - path: RatArmature/root
+        weight: 1
+      - path: RatArmature/root/BackFoot.L
+        weight: 1
+      - path: RatArmature/root/BackFoot.L/BackFoot.L_end
+        weight: 1
+      - path: RatArmature/root/BackFoot.R
+        weight: 1
+      - path: RatArmature/root/BackFoot.R/BackFoot.R_end
+        weight: 1
+      - path: RatArmature/root/Body
+        weight: 1
+      - path: RatArmature/root/Body/Back
+        weight: 1
+      - path: RatArmature/root/Body/Back/Tail1
+        weight: 1
+      - path: RatArmature/root/Body/Back/Tail1/Tail2
+        weight: 1
+      - path: RatArmature/root/Body/Back/Tail1/Tail2/Tail3
+        weight: 1
+      - path: RatArmature/root/Body/Back/Tail1/Tail2/Tail3/Tail4
+        weight: 1
+      - path: RatArmature/root/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5
+        weight: 1
+      - path: RatArmature/root/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6
+        weight: 1
+      - path: RatArmature/root/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6/Tail7
+        weight: 1
+      - path: RatArmature/root/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6/Tail7/Tail7_end
+        weight: 1
+      - path: RatArmature/root/Body/BackLeg.L
+        weight: 1
+      - path: RatArmature/root/Body/BackLeg.L/BackUpLeg.L
+        weight: 1
+      - path: RatArmature/root/Body/BackLeg.L/BackUpLeg.L/BackLowLeg.L
+        weight: 1
+      - path: RatArmature/root/Body/BackLeg.L/BackUpLeg.L/BackLowLeg.L/BackLowLeg.L_end
+        weight: 1
+      - path: RatArmature/root/Body/BackLeg.R
+        weight: 1
+      - path: RatArmature/root/Body/BackLeg.R/BackUpLeg.R
+        weight: 1
+      - path: RatArmature/root/Body/BackLeg.R/BackUpLeg.R/BackLowLeg.R
+        weight: 1
+      - path: RatArmature/root/Body/BackLeg.R/BackUpLeg.R/BackLowLeg.R/BackLowLeg.R_end
+        weight: 1
+      - path: RatArmature/root/Body/FrontLeg.L
+        weight: 1
+      - path: RatArmature/root/Body/FrontLeg.L/FrontUpLeg.L
+        weight: 1
+      - path: RatArmature/root/Body/FrontLeg.L/FrontUpLeg.L/FrontLowLeg.L
+        weight: 1
+      - path: RatArmature/root/Body/FrontLeg.L/FrontUpLeg.L/FrontLowLeg.L/FrontLowLeg.L_end
+        weight: 1
+      - path: RatArmature/root/Body/FrontLeg.R
+        weight: 1
+      - path: RatArmature/root/Body/FrontLeg.R/FrontUpLeg.R
+        weight: 1
+      - path: RatArmature/root/Body/FrontLeg.R/FrontUpLeg.R/FrontLowLeg.R
+        weight: 1
+      - path: RatArmature/root/Body/FrontLeg.R/FrontUpLeg.R/FrontLowLeg.R/FrontLowLeg.R_end
+        weight: 1
+      - path: RatArmature/root/Body/Hips
+        weight: 1
+      - path: RatArmature/root/Body/Hips/Torso
+        weight: 1
+      - path: RatArmature/root/Body/Hips/Torso/Torso_end
+        weight: 1
+      - path: RatArmature/root/Body/Shoulders
+        weight: 1
+      - path: RatArmature/root/Body/Shoulders/Neck
+        weight: 1
+      - path: RatArmature/root/Body/Shoulders/Neck/Head
+        weight: 1
+      - path: RatArmature/root/Body/Shoulders/Neck/Head/Head_end
+        weight: 1
+      - path: RatArmature/root/FrontFoot.L
+        weight: 1
+      - path: RatArmature/root/FrontFoot.L/FrontFoot.L_end
+        weight: 1
+      - path: RatArmature/root/FrontFoot.R
+        weight: 1
+      - path: RatArmature/root/FrontFoot.R/FrontFoot.R_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: RatArmature|Rat_Jump
+      takeName: RatArmature|Rat_Jump
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Rat
+        weight: 1
+      - path: RatArmature
+        weight: 1
+      - path: RatArmature/root
+        weight: 1
+      - path: RatArmature/root/BackFoot.L
+        weight: 1
+      - path: RatArmature/root/BackFoot.L/BackFoot.L_end
+        weight: 1
+      - path: RatArmature/root/BackFoot.R
+        weight: 1
+      - path: RatArmature/root/BackFoot.R/BackFoot.R_end
+        weight: 1
+      - path: RatArmature/root/Body
+        weight: 1
+      - path: RatArmature/root/Body/Back
+        weight: 1
+      - path: RatArmature/root/Body/Back/Tail1
+        weight: 1
+      - path: RatArmature/root/Body/Back/Tail1/Tail2
+        weight: 1
+      - path: RatArmature/root/Body/Back/Tail1/Tail2/Tail3
+        weight: 1
+      - path: RatArmature/root/Body/Back/Tail1/Tail2/Tail3/Tail4
+        weight: 1
+      - path: RatArmature/root/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5
+        weight: 1
+      - path: RatArmature/root/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6
+        weight: 1
+      - path: RatArmature/root/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6/Tail7
+        weight: 1
+      - path: RatArmature/root/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6/Tail7/Tail7_end
+        weight: 1
+      - path: RatArmature/root/Body/BackLeg.L
+        weight: 1
+      - path: RatArmature/root/Body/BackLeg.L/BackUpLeg.L
+        weight: 1
+      - path: RatArmature/root/Body/BackLeg.L/BackUpLeg.L/BackLowLeg.L
+        weight: 1
+      - path: RatArmature/root/Body/BackLeg.L/BackUpLeg.L/BackLowLeg.L/BackLowLeg.L_end
+        weight: 1
+      - path: RatArmature/root/Body/BackLeg.R
+        weight: 1
+      - path: RatArmature/root/Body/BackLeg.R/BackUpLeg.R
+        weight: 1
+      - path: RatArmature/root/Body/BackLeg.R/BackUpLeg.R/BackLowLeg.R
+        weight: 1
+      - path: RatArmature/root/Body/BackLeg.R/BackUpLeg.R/BackLowLeg.R/BackLowLeg.R_end
+        weight: 1
+      - path: RatArmature/root/Body/FrontLeg.L
+        weight: 1
+      - path: RatArmature/root/Body/FrontLeg.L/FrontUpLeg.L
+        weight: 1
+      - path: RatArmature/root/Body/FrontLeg.L/FrontUpLeg.L/FrontLowLeg.L
+        weight: 1
+      - path: RatArmature/root/Body/FrontLeg.L/FrontUpLeg.L/FrontLowLeg.L/FrontLowLeg.L_end
+        weight: 1
+      - path: RatArmature/root/Body/FrontLeg.R
+        weight: 1
+      - path: RatArmature/root/Body/FrontLeg.R/FrontUpLeg.R
+        weight: 1
+      - path: RatArmature/root/Body/FrontLeg.R/FrontUpLeg.R/FrontLowLeg.R
+        weight: 1
+      - path: RatArmature/root/Body/FrontLeg.R/FrontUpLeg.R/FrontLowLeg.R/FrontLowLeg.R_end
+        weight: 1
+      - path: RatArmature/root/Body/Hips
+        weight: 1
+      - path: RatArmature/root/Body/Hips/Torso
+        weight: 1
+      - path: RatArmature/root/Body/Hips/Torso/Torso_end
+        weight: 1
+      - path: RatArmature/root/Body/Shoulders
+        weight: 1
+      - path: RatArmature/root/Body/Shoulders/Neck
+        weight: 1
+      - path: RatArmature/root/Body/Shoulders/Neck/Head
+        weight: 1
+      - path: RatArmature/root/Body/Shoulders/Neck/Head/Head_end
+        weight: 1
+      - path: RatArmature/root/FrontFoot.L
+        weight: 1
+      - path: RatArmature/root/FrontFoot.L/FrontFoot.L_end
+        weight: 1
+      - path: RatArmature/root/FrontFoot.R
+        weight: 1
+      - path: RatArmature/root/FrontFoot.R/FrontFoot.R_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: RatArmature|Rat_Run
+      takeName: RatArmature|Rat_Run
+      firstFrame: 0
+      lastFrame: 12
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Rat
+        weight: 1
+      - path: RatArmature
+        weight: 1
+      - path: RatArmature/root
+        weight: 1
+      - path: RatArmature/root/BackFoot.L
+        weight: 1
+      - path: RatArmature/root/BackFoot.L/BackFoot.L_end
+        weight: 1
+      - path: RatArmature/root/BackFoot.R
+        weight: 1
+      - path: RatArmature/root/BackFoot.R/BackFoot.R_end
+        weight: 1
+      - path: RatArmature/root/Body
+        weight: 1
+      - path: RatArmature/root/Body/Back
+        weight: 1
+      - path: RatArmature/root/Body/Back/Tail1
+        weight: 1
+      - path: RatArmature/root/Body/Back/Tail1/Tail2
+        weight: 1
+      - path: RatArmature/root/Body/Back/Tail1/Tail2/Tail3
+        weight: 1
+      - path: RatArmature/root/Body/Back/Tail1/Tail2/Tail3/Tail4
+        weight: 1
+      - path: RatArmature/root/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5
+        weight: 1
+      - path: RatArmature/root/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6
+        weight: 1
+      - path: RatArmature/root/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6/Tail7
+        weight: 1
+      - path: RatArmature/root/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6/Tail7/Tail7_end
+        weight: 1
+      - path: RatArmature/root/Body/BackLeg.L
+        weight: 1
+      - path: RatArmature/root/Body/BackLeg.L/BackUpLeg.L
+        weight: 1
+      - path: RatArmature/root/Body/BackLeg.L/BackUpLeg.L/BackLowLeg.L
+        weight: 1
+      - path: RatArmature/root/Body/BackLeg.L/BackUpLeg.L/BackLowLeg.L/BackLowLeg.L_end
+        weight: 1
+      - path: RatArmature/root/Body/BackLeg.R
+        weight: 1
+      - path: RatArmature/root/Body/BackLeg.R/BackUpLeg.R
+        weight: 1
+      - path: RatArmature/root/Body/BackLeg.R/BackUpLeg.R/BackLowLeg.R
+        weight: 1
+      - path: RatArmature/root/Body/BackLeg.R/BackUpLeg.R/BackLowLeg.R/BackLowLeg.R_end
+        weight: 1
+      - path: RatArmature/root/Body/FrontLeg.L
+        weight: 1
+      - path: RatArmature/root/Body/FrontLeg.L/FrontUpLeg.L
+        weight: 1
+      - path: RatArmature/root/Body/FrontLeg.L/FrontUpLeg.L/FrontLowLeg.L
+        weight: 1
+      - path: RatArmature/root/Body/FrontLeg.L/FrontUpLeg.L/FrontLowLeg.L/FrontLowLeg.L_end
+        weight: 1
+      - path: RatArmature/root/Body/FrontLeg.R
+        weight: 1
+      - path: RatArmature/root/Body/FrontLeg.R/FrontUpLeg.R
+        weight: 1
+      - path: RatArmature/root/Body/FrontLeg.R/FrontUpLeg.R/FrontLowLeg.R
+        weight: 1
+      - path: RatArmature/root/Body/FrontLeg.R/FrontUpLeg.R/FrontLowLeg.R/FrontLowLeg.R_end
+        weight: 1
+      - path: RatArmature/root/Body/Hips
+        weight: 1
+      - path: RatArmature/root/Body/Hips/Torso
+        weight: 1
+      - path: RatArmature/root/Body/Hips/Torso/Torso_end
+        weight: 1
+      - path: RatArmature/root/Body/Shoulders
+        weight: 1
+      - path: RatArmature/root/Body/Shoulders/Neck
+        weight: 1
+      - path: RatArmature/root/Body/Shoulders/Neck/Head
+        weight: 1
+      - path: RatArmature/root/Body/Shoulders/Neck/Head/Head_end
+        weight: 1
+      - path: RatArmature/root/FrontFoot.L
+        weight: 1
+      - path: RatArmature/root/FrontFoot.L/FrontFoot.L_end
+        weight: 1
+      - path: RatArmature/root/FrontFoot.R
+        weight: 1
+      - path: RatArmature/root/FrontFoot.R/FrontFoot.R_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: RatArmature|Rat_Walk
+      takeName: RatArmature|Rat_Walk
+      firstFrame: 0
+      lastFrame: 32
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Rat
+        weight: 1
+      - path: RatArmature
+        weight: 1
+      - path: RatArmature/root
+        weight: 1
+      - path: RatArmature/root/BackFoot.L
+        weight: 1
+      - path: RatArmature/root/BackFoot.L/BackFoot.L_end
+        weight: 1
+      - path: RatArmature/root/BackFoot.R
+        weight: 1
+      - path: RatArmature/root/BackFoot.R/BackFoot.R_end
+        weight: 1
+      - path: RatArmature/root/Body
+        weight: 1
+      - path: RatArmature/root/Body/Back
+        weight: 1
+      - path: RatArmature/root/Body/Back/Tail1
+        weight: 1
+      - path: RatArmature/root/Body/Back/Tail1/Tail2
+        weight: 1
+      - path: RatArmature/root/Body/Back/Tail1/Tail2/Tail3
+        weight: 1
+      - path: RatArmature/root/Body/Back/Tail1/Tail2/Tail3/Tail4
+        weight: 1
+      - path: RatArmature/root/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5
+        weight: 1
+      - path: RatArmature/root/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6
+        weight: 1
+      - path: RatArmature/root/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6/Tail7
+        weight: 1
+      - path: RatArmature/root/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6/Tail7/Tail7_end
+        weight: 1
+      - path: RatArmature/root/Body/BackLeg.L
+        weight: 1
+      - path: RatArmature/root/Body/BackLeg.L/BackUpLeg.L
+        weight: 1
+      - path: RatArmature/root/Body/BackLeg.L/BackUpLeg.L/BackLowLeg.L
+        weight: 1
+      - path: RatArmature/root/Body/BackLeg.L/BackUpLeg.L/BackLowLeg.L/BackLowLeg.L_end
+        weight: 1
+      - path: RatArmature/root/Body/BackLeg.R
+        weight: 1
+      - path: RatArmature/root/Body/BackLeg.R/BackUpLeg.R
+        weight: 1
+      - path: RatArmature/root/Body/BackLeg.R/BackUpLeg.R/BackLowLeg.R
+        weight: 1
+      - path: RatArmature/root/Body/BackLeg.R/BackUpLeg.R/BackLowLeg.R/BackLowLeg.R_end
+        weight: 1
+      - path: RatArmature/root/Body/FrontLeg.L
+        weight: 1
+      - path: RatArmature/root/Body/FrontLeg.L/FrontUpLeg.L
+        weight: 1
+      - path: RatArmature/root/Body/FrontLeg.L/FrontUpLeg.L/FrontLowLeg.L
+        weight: 1
+      - path: RatArmature/root/Body/FrontLeg.L/FrontUpLeg.L/FrontLowLeg.L/FrontLowLeg.L_end
+        weight: 1
+      - path: RatArmature/root/Body/FrontLeg.R
+        weight: 1
+      - path: RatArmature/root/Body/FrontLeg.R/FrontUpLeg.R
+        weight: 1
+      - path: RatArmature/root/Body/FrontLeg.R/FrontUpLeg.R/FrontLowLeg.R
+        weight: 1
+      - path: RatArmature/root/Body/FrontLeg.R/FrontUpLeg.R/FrontLowLeg.R/FrontLowLeg.R_end
+        weight: 1
+      - path: RatArmature/root/Body/Hips
+        weight: 1
+      - path: RatArmature/root/Body/Hips/Torso
+        weight: 1
+      - path: RatArmature/root/Body/Hips/Torso/Torso_end
+        weight: 1
+      - path: RatArmature/root/Body/Shoulders
+        weight: 1
+      - path: RatArmature/root/Body/Shoulders/Neck
+        weight: 1
+      - path: RatArmature/root/Body/Shoulders/Neck/Head
+        weight: 1
+      - path: RatArmature/root/Body/Shoulders/Neck/Head/Head_end
+        weight: 1
+      - path: RatArmature/root/FrontFoot.L
+        weight: 1
+      - path: RatArmature/root/FrontFoot.L/FrontFoot.L_end
+        weight: 1
+      - path: RatArmature/root/FrontFoot.R
+        weight: 1
+      - path: RatArmature/root/FrontFoot.R/FrontFoot.R_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  userData: 

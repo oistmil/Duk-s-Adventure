@@ -1,0 +1,4209 @@
+fileFormatVersion: 2
+guid: 053e75105be114e499e7d29a73c29c87
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: AnimalArmature
+    100002: Back
+    100004: BackLeg.L
+    100006: BackLeg.R
+    100008: BackLowerLeg.L
+    100010: BackLowerLeg.L_end
+    100012: BackLowerLeg.R
+    100014: BackLowerLeg.R_end
+    100016: BackShoulder.L
+    100018: BackShoulder.R
+    100020: BackUpperLeg.L
+    100022: BackUpperLeg.R
+    100024: Body
+    100026: Ear1.L
+    100028: Ear1.R
+    100030: Ear2.L
+    100032: Ear2.R
+    100034: Ear3.L
+    100036: Ear3.R
+    100038: Ear4.L
+    100040: Ear4.L_end
+    100042: Ear4.R
+    100044: Ear4.R_end
+    100046: FF.L
+    100048: FF.L_end
+    100050: FF.R
+    100052: FF.R_end
+    100054: FFB.L
+    100056: FFB.L_end
+    100058: FFB.R
+    100060: FFB.R_end
+    100062: //RootNode
+    100064: Fox
+    100066: FrontLowerLeg.L
+    100068: FrontLowerLeg.L_end
+    100070: FrontLowerLeg.R
+    100072: FrontLowerLeg.R_end
+    100074: FrontShoulder.L
+    100076: FrontShoulder.R
+    100078: FrontUpperLeg.L
+    100080: FrontUpperLeg.R
+    100082: Head
+    100084: Head_end
+    100086: IKBackLeg.L
+    100088: IKBackLeg.R
+    100090: IKFrontLeg.L
+    100092: IKFrontLeg.R
+    100094: Neck1
+    100096: Neck2
+    100098: Neck3
+    100100: PoleTarget.L
+    100102: PoleTarget.L_end
+    100104: PoleTarget.R
+    100106: PoleTarget.R_end
+    100108: PoleTargetBack.L
+    100110: PoleTargetBack.L_end
+    100112: PoleTargetBack.R
+    100114: PoleTargetBack.R_end
+    100116: Tail1
+    100118: Tail2
+    100120: Tail3
+    100122: Tail4
+    100124: Tail5
+    100126: Tail6
+    100128: Tail7
+    100130: Tail8
+    100132: Tail8_end
+    100134: Torso
+    100136: Torso2
+    100138: Torso3
+    400000: AnimalArmature
+    400002: Back
+    400004: BackLeg.L
+    400006: BackLeg.R
+    400008: BackLowerLeg.L
+    400010: BackLowerLeg.L_end
+    400012: BackLowerLeg.R
+    400014: BackLowerLeg.R_end
+    400016: BackShoulder.L
+    400018: BackShoulder.R
+    400020: BackUpperLeg.L
+    400022: BackUpperLeg.R
+    400024: Body
+    400026: Ear1.L
+    400028: Ear1.R
+    400030: Ear2.L
+    400032: Ear2.R
+    400034: Ear3.L
+    400036: Ear3.R
+    400038: Ear4.L
+    400040: Ear4.L_end
+    400042: Ear4.R
+    400044: Ear4.R_end
+    400046: FF.L
+    400048: FF.L_end
+    400050: FF.R
+    400052: FF.R_end
+    400054: FFB.L
+    400056: FFB.L_end
+    400058: FFB.R
+    400060: FFB.R_end
+    400062: Fox
+    400064: //RootNode
+    400066: FrontLowerLeg.L
+    400068: FrontLowerLeg.L_end
+    400070: FrontLowerLeg.R
+    400072: FrontLowerLeg.R_end
+    400074: FrontShoulder.L
+    400076: FrontShoulder.R
+    400078: FrontUpperLeg.L
+    400080: FrontUpperLeg.R
+    400082: Head
+    400084: Head_end
+    400086: IKBackLeg.L
+    400088: IKBackLeg.R
+    400090: IKFrontLeg.L
+    400092: IKFrontLeg.R
+    400094: Neck1
+    400096: Neck2
+    400098: Neck3
+    400100: PoleTarget.L
+    400102: PoleTarget.L_end
+    400104: PoleTarget.R
+    400106: PoleTarget.R_end
+    400108: PoleTargetBack.L
+    400110: PoleTargetBack.L_end
+    400112: PoleTargetBack.R
+    400114: PoleTargetBack.R_end
+    400116: Tail1
+    400118: Tail2
+    400120: Tail3
+    400122: Tail4
+    400124: Tail5
+    400126: Tail6
+    400128: Tail7
+    400130: Tail8
+    400132: Tail8_end
+    400134: Torso
+    400136: Torso2
+    400138: Torso3
+    4300000: Fox
+    7400000: Attack
+    7400002: Death
+    7400004: Eating
+    7400006: Gallop
+    7400008: Gallop_Jump
+    7400010: Idle_HitReact_Left
+    7400012: Idle_HitReact_Right
+    7400014: Jump_ToIdle
+    7400016: Walk
+    7400018: Idle_2_HeadLow
+    7400020: Idle_2
+    7400022: Idle
+    7400024: AnimalArmature|Attack
+    7400026: AnimalArmature|Death
+    7400028: AnimalArmature|Eating
+    7400030: AnimalArmature|Gallop
+    7400032: AnimalArmature|Gallop_Jump
+    7400034: AnimalArmature|Idle
+    7400036: AnimalArmature|Idle_2
+    7400038: AnimalArmature|Idle_2_HeadLow
+    7400040: AnimalArmature|Idle_HitReact_Left
+    7400042: AnimalArmature|Idle_HitReact_Right
+    7400044: AnimalArmature|Jump_ToIdle
+    7400046: AnimalArmature|Walk
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Fox
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 2
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Attack
+      takeName: Attack
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: AnimalArmature
+        weight: 1
+      - path: AnimalArmature/Body
+        weight: 1
+      - path: AnimalArmature/Body/Back
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L/BackLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L/BackLeg.L/BackUpperLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L/BackLeg.L/BackUpperLeg.L/BackLowerLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L/BackLeg.L/BackUpperLeg.L/BackLowerLeg.L/BackLowerLeg.L_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R/BackLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R/BackLeg.R/BackUpperLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R/BackLeg.R/BackUpperLeg.R/BackLowerLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R/BackLeg.R/BackUpperLeg.R/BackLowerLeg.R/BackLowerLeg.R_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6/Tail7
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6/Tail7/Tail8
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6/Tail7/Tail8/Tail8_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.L/FrontUpperLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.L/FrontUpperLeg.L/FrontLowerLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.L/FrontUpperLeg.L/FrontLowerLeg.L/FrontLowerLeg.L_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.R/FrontUpperLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.R/FrontUpperLeg.R/FrontLowerLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.R/FrontUpperLeg.R/FrontLowerLeg.R/FrontLowerLeg.R_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L/Ear2.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L/Ear2.L/Ear3.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L/Ear2.L/Ear3.L/Ear4.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L/Ear2.L/Ear3.L/Ear4.L/Ear4.L_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R/Ear2.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R/Ear2.R/Ear3.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R/Ear2.R/Ear3.R/Ear4.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R/Ear2.R/Ear3.R/Ear4.R/Ear4.R_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Head
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Head/Head_end
+        weight: 1
+      - path: AnimalArmature/Body/PoleTarget.L
+        weight: 1
+      - path: AnimalArmature/Body/PoleTarget.L/PoleTarget.L_end
+        weight: 1
+      - path: AnimalArmature/Body/PoleTarget.R
+        weight: 1
+      - path: AnimalArmature/Body/PoleTarget.R/PoleTarget.R_end
+        weight: 1
+      - path: AnimalArmature/Body/PoleTargetBack.L
+        weight: 1
+      - path: AnimalArmature/Body/PoleTargetBack.L/PoleTargetBack.L_end
+        weight: 1
+      - path: AnimalArmature/Body/PoleTargetBack.R
+        weight: 1
+      - path: AnimalArmature/Body/PoleTargetBack.R/PoleTargetBack.R_end
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.L
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.L/FFB.L
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.L/FFB.L/FFB.L_end
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.R
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.R/FFB.R
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.R/FFB.R/FFB.R_end
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.L
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.L/FF.L
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.L/FF.L/FF.L_end
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.R
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.R/FF.R
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.R/FF.R/FF.R_end
+        weight: 1
+      - path: Fox
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Death
+      takeName: Death
+      firstFrame: 0
+      lastFrame: 32
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: AnimalArmature
+        weight: 1
+      - path: AnimalArmature/Body
+        weight: 1
+      - path: AnimalArmature/Body/Back
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L/BackLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L/BackLeg.L/BackUpperLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L/BackLeg.L/BackUpperLeg.L/BackLowerLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L/BackLeg.L/BackUpperLeg.L/BackLowerLeg.L/BackLowerLeg.L_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R/BackLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R/BackLeg.R/BackUpperLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R/BackLeg.R/BackUpperLeg.R/BackLowerLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R/BackLeg.R/BackUpperLeg.R/BackLowerLeg.R/BackLowerLeg.R_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6/Tail7
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6/Tail7/Tail8
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6/Tail7/Tail8/Tail8_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.L/FrontUpperLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.L/FrontUpperLeg.L/FrontLowerLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.L/FrontUpperLeg.L/FrontLowerLeg.L/FrontLowerLeg.L_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.R/FrontUpperLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.R/FrontUpperLeg.R/FrontLowerLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.R/FrontUpperLeg.R/FrontLowerLeg.R/FrontLowerLeg.R_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L/Ear2.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L/Ear2.L/Ear3.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L/Ear2.L/Ear3.L/Ear4.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L/Ear2.L/Ear3.L/Ear4.L/Ear4.L_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R/Ear2.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R/Ear2.R/Ear3.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R/Ear2.R/Ear3.R/Ear4.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R/Ear2.R/Ear3.R/Ear4.R/Ear4.R_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Head
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Head/Head_end
+        weight: 1
+      - path: AnimalArmature/Body/PoleTarget.L
+        weight: 1
+      - path: AnimalArmature/Body/PoleTarget.L/PoleTarget.L_end
+        weight: 1
+      - path: AnimalArmature/Body/PoleTarget.R
+        weight: 1
+      - path: AnimalArmature/Body/PoleTarget.R/PoleTarget.R_end
+        weight: 1
+      - path: AnimalArmature/Body/PoleTargetBack.L
+        weight: 1
+      - path: AnimalArmature/Body/PoleTargetBack.L/PoleTargetBack.L_end
+        weight: 1
+      - path: AnimalArmature/Body/PoleTargetBack.R
+        weight: 1
+      - path: AnimalArmature/Body/PoleTargetBack.R/PoleTargetBack.R_end
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.L
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.L/FFB.L
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.L/FFB.L/FFB.L_end
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.R
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.R/FFB.R
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.R/FFB.R/FFB.R_end
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.L
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.L/FF.L
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.L/FF.L/FF.L_end
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.R
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.R/FF.R
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.R/FF.R/FF.R_end
+        weight: 1
+      - path: Fox
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Eating
+      takeName: Eating
+      firstFrame: 0
+      lastFrame: 76
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: AnimalArmature
+        weight: 1
+      - path: AnimalArmature/Body
+        weight: 1
+      - path: AnimalArmature/Body/Back
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L/BackLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L/BackLeg.L/BackUpperLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L/BackLeg.L/BackUpperLeg.L/BackLowerLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L/BackLeg.L/BackUpperLeg.L/BackLowerLeg.L/BackLowerLeg.L_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R/BackLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R/BackLeg.R/BackUpperLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R/BackLeg.R/BackUpperLeg.R/BackLowerLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R/BackLeg.R/BackUpperLeg.R/BackLowerLeg.R/BackLowerLeg.R_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6/Tail7
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6/Tail7/Tail8
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6/Tail7/Tail8/Tail8_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.L/FrontUpperLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.L/FrontUpperLeg.L/FrontLowerLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.L/FrontUpperLeg.L/FrontLowerLeg.L/FrontLowerLeg.L_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.R/FrontUpperLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.R/FrontUpperLeg.R/FrontLowerLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.R/FrontUpperLeg.R/FrontLowerLeg.R/FrontLowerLeg.R_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L/Ear2.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L/Ear2.L/Ear3.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L/Ear2.L/Ear3.L/Ear4.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L/Ear2.L/Ear3.L/Ear4.L/Ear4.L_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R/Ear2.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R/Ear2.R/Ear3.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R/Ear2.R/Ear3.R/Ear4.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R/Ear2.R/Ear3.R/Ear4.R/Ear4.R_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Head
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Head/Head_end
+        weight: 1
+      - path: AnimalArmature/Body/PoleTarget.L
+        weight: 1
+      - path: AnimalArmature/Body/PoleTarget.L/PoleTarget.L_end
+        weight: 1
+      - path: AnimalArmature/Body/PoleTarget.R
+        weight: 1
+      - path: AnimalArmature/Body/PoleTarget.R/PoleTarget.R_end
+        weight: 1
+      - path: AnimalArmature/Body/PoleTargetBack.L
+        weight: 1
+      - path: AnimalArmature/Body/PoleTargetBack.L/PoleTargetBack.L_end
+        weight: 1
+      - path: AnimalArmature/Body/PoleTargetBack.R
+        weight: 1
+      - path: AnimalArmature/Body/PoleTargetBack.R/PoleTargetBack.R_end
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.L
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.L/FFB.L
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.L/FFB.L/FFB.L_end
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.R
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.R/FFB.R
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.R/FFB.R/FFB.R_end
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.L
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.L/FF.L
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.L/FF.L/FF.L_end
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.R
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.R/FF.R
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.R/FF.R/FF.R_end
+        weight: 1
+      - path: Fox
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Gallop
+      takeName: Gallop
+      firstFrame: 0
+      lastFrame: 17
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: AnimalArmature
+        weight: 1
+      - path: AnimalArmature/Body
+        weight: 1
+      - path: AnimalArmature/Body/Back
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L/BackLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L/BackLeg.L/BackUpperLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L/BackLeg.L/BackUpperLeg.L/BackLowerLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L/BackLeg.L/BackUpperLeg.L/BackLowerLeg.L/BackLowerLeg.L_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R/BackLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R/BackLeg.R/BackUpperLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R/BackLeg.R/BackUpperLeg.R/BackLowerLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R/BackLeg.R/BackUpperLeg.R/BackLowerLeg.R/BackLowerLeg.R_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6/Tail7
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6/Tail7/Tail8
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6/Tail7/Tail8/Tail8_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.L/FrontUpperLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.L/FrontUpperLeg.L/FrontLowerLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.L/FrontUpperLeg.L/FrontLowerLeg.L/FrontLowerLeg.L_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.R/FrontUpperLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.R/FrontUpperLeg.R/FrontLowerLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.R/FrontUpperLeg.R/FrontLowerLeg.R/FrontLowerLeg.R_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L/Ear2.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L/Ear2.L/Ear3.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L/Ear2.L/Ear3.L/Ear4.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L/Ear2.L/Ear3.L/Ear4.L/Ear4.L_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R/Ear2.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R/Ear2.R/Ear3.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R/Ear2.R/Ear3.R/Ear4.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R/Ear2.R/Ear3.R/Ear4.R/Ear4.R_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Head
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Head/Head_end
+        weight: 1
+      - path: AnimalArmature/Body/PoleTarget.L
+        weight: 1
+      - path: AnimalArmature/Body/PoleTarget.L/PoleTarget.L_end
+        weight: 1
+      - path: AnimalArmature/Body/PoleTarget.R
+        weight: 1
+      - path: AnimalArmature/Body/PoleTarget.R/PoleTarget.R_end
+        weight: 1
+      - path: AnimalArmature/Body/PoleTargetBack.L
+        weight: 1
+      - path: AnimalArmature/Body/PoleTargetBack.L/PoleTargetBack.L_end
+        weight: 1
+      - path: AnimalArmature/Body/PoleTargetBack.R
+        weight: 1
+      - path: AnimalArmature/Body/PoleTargetBack.R/PoleTargetBack.R_end
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.L
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.L/FFB.L
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.L/FFB.L/FFB.L_end
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.R
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.R/FFB.R
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.R/FFB.R/FFB.R_end
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.L
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.L/FF.L
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.L/FF.L/FF.L_end
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.R
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.R/FF.R
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.R/FF.R/FF.R_end
+        weight: 1
+      - path: Fox
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Gallop_Jump
+      takeName: Gallop_Jump
+      firstFrame: 0
+      lastFrame: 28
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: AnimalArmature
+        weight: 1
+      - path: AnimalArmature/Body
+        weight: 1
+      - path: AnimalArmature/Body/Back
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L/BackLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L/BackLeg.L/BackUpperLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L/BackLeg.L/BackUpperLeg.L/BackLowerLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L/BackLeg.L/BackUpperLeg.L/BackLowerLeg.L/BackLowerLeg.L_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R/BackLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R/BackLeg.R/BackUpperLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R/BackLeg.R/BackUpperLeg.R/BackLowerLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R/BackLeg.R/BackUpperLeg.R/BackLowerLeg.R/BackLowerLeg.R_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6/Tail7
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6/Tail7/Tail8
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6/Tail7/Tail8/Tail8_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.L/FrontUpperLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.L/FrontUpperLeg.L/FrontLowerLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.L/FrontUpperLeg.L/FrontLowerLeg.L/FrontLowerLeg.L_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.R/FrontUpperLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.R/FrontUpperLeg.R/FrontLowerLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.R/FrontUpperLeg.R/FrontLowerLeg.R/FrontLowerLeg.R_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L/Ear2.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L/Ear2.L/Ear3.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L/Ear2.L/Ear3.L/Ear4.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L/Ear2.L/Ear3.L/Ear4.L/Ear4.L_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R/Ear2.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R/Ear2.R/Ear3.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R/Ear2.R/Ear3.R/Ear4.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R/Ear2.R/Ear3.R/Ear4.R/Ear4.R_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Head
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Head/Head_end
+        weight: 1
+      - path: AnimalArmature/Body/PoleTarget.L
+        weight: 1
+      - path: AnimalArmature/Body/PoleTarget.L/PoleTarget.L_end
+        weight: 1
+      - path: AnimalArmature/Body/PoleTarget.R
+        weight: 1
+      - path: AnimalArmature/Body/PoleTarget.R/PoleTarget.R_end
+        weight: 1
+      - path: AnimalArmature/Body/PoleTargetBack.L
+        weight: 1
+      - path: AnimalArmature/Body/PoleTargetBack.L/PoleTargetBack.L_end
+        weight: 1
+      - path: AnimalArmature/Body/PoleTargetBack.R
+        weight: 1
+      - path: AnimalArmature/Body/PoleTargetBack.R/PoleTargetBack.R_end
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.L
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.L/FFB.L
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.L/FFB.L/FFB.L_end
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.R
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.R/FFB.R
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.R/FFB.R/FFB.R_end
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.L
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.L/FF.L
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.L/FF.L/FF.L_end
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.R
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.R/FF.R
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.R/FF.R/FF.R_end
+        weight: 1
+      - path: Fox
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Idle_HitReact_Left
+      takeName: Idle_HitReact_Left
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: AnimalArmature
+        weight: 1
+      - path: AnimalArmature/Body
+        weight: 1
+      - path: AnimalArmature/Body/Back
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L/BackLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L/BackLeg.L/BackUpperLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L/BackLeg.L/BackUpperLeg.L/BackLowerLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L/BackLeg.L/BackUpperLeg.L/BackLowerLeg.L/BackLowerLeg.L_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R/BackLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R/BackLeg.R/BackUpperLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R/BackLeg.R/BackUpperLeg.R/BackLowerLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R/BackLeg.R/BackUpperLeg.R/BackLowerLeg.R/BackLowerLeg.R_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6/Tail7
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6/Tail7/Tail8
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6/Tail7/Tail8/Tail8_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.L/FrontUpperLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.L/FrontUpperLeg.L/FrontLowerLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.L/FrontUpperLeg.L/FrontLowerLeg.L/FrontLowerLeg.L_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.R/FrontUpperLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.R/FrontUpperLeg.R/FrontLowerLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.R/FrontUpperLeg.R/FrontLowerLeg.R/FrontLowerLeg.R_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L/Ear2.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L/Ear2.L/Ear3.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L/Ear2.L/Ear3.L/Ear4.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L/Ear2.L/Ear3.L/Ear4.L/Ear4.L_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R/Ear2.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R/Ear2.R/Ear3.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R/Ear2.R/Ear3.R/Ear4.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R/Ear2.R/Ear3.R/Ear4.R/Ear4.R_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Head
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Head/Head_end
+        weight: 1
+      - path: AnimalArmature/Body/PoleTarget.L
+        weight: 1
+      - path: AnimalArmature/Body/PoleTarget.L/PoleTarget.L_end
+        weight: 1
+      - path: AnimalArmature/Body/PoleTarget.R
+        weight: 1
+      - path: AnimalArmature/Body/PoleTarget.R/PoleTarget.R_end
+        weight: 1
+      - path: AnimalArmature/Body/PoleTargetBack.L
+        weight: 1
+      - path: AnimalArmature/Body/PoleTargetBack.L/PoleTargetBack.L_end
+        weight: 1
+      - path: AnimalArmature/Body/PoleTargetBack.R
+        weight: 1
+      - path: AnimalArmature/Body/PoleTargetBack.R/PoleTargetBack.R_end
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.L
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.L/FFB.L
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.L/FFB.L/FFB.L_end
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.R
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.R/FFB.R
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.R/FFB.R/FFB.R_end
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.L
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.L/FF.L
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.L/FF.L/FF.L_end
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.R
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.R/FF.R
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.R/FF.R/FF.R_end
+        weight: 1
+      - path: Fox
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Idle_HitReact_Right
+      takeName: Idle_HitReact_Right
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: AnimalArmature
+        weight: 1
+      - path: AnimalArmature/Body
+        weight: 1
+      - path: AnimalArmature/Body/Back
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L/BackLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L/BackLeg.L/BackUpperLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L/BackLeg.L/BackUpperLeg.L/BackLowerLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L/BackLeg.L/BackUpperLeg.L/BackLowerLeg.L/BackLowerLeg.L_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R/BackLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R/BackLeg.R/BackUpperLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R/BackLeg.R/BackUpperLeg.R/BackLowerLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R/BackLeg.R/BackUpperLeg.R/BackLowerLeg.R/BackLowerLeg.R_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6/Tail7
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6/Tail7/Tail8
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6/Tail7/Tail8/Tail8_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.L/FrontUpperLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.L/FrontUpperLeg.L/FrontLowerLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.L/FrontUpperLeg.L/FrontLowerLeg.L/FrontLowerLeg.L_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.R/FrontUpperLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.R/FrontUpperLeg.R/FrontLowerLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.R/FrontUpperLeg.R/FrontLowerLeg.R/FrontLowerLeg.R_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L/Ear2.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L/Ear2.L/Ear3.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L/Ear2.L/Ear3.L/Ear4.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L/Ear2.L/Ear3.L/Ear4.L/Ear4.L_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R/Ear2.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R/Ear2.R/Ear3.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R/Ear2.R/Ear3.R/Ear4.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R/Ear2.R/Ear3.R/Ear4.R/Ear4.R_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Head
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Head/Head_end
+        weight: 1
+      - path: AnimalArmature/Body/PoleTarget.L
+        weight: 1
+      - path: AnimalArmature/Body/PoleTarget.L/PoleTarget.L_end
+        weight: 1
+      - path: AnimalArmature/Body/PoleTarget.R
+        weight: 1
+      - path: AnimalArmature/Body/PoleTarget.R/PoleTarget.R_end
+        weight: 1
+      - path: AnimalArmature/Body/PoleTargetBack.L
+        weight: 1
+      - path: AnimalArmature/Body/PoleTargetBack.L/PoleTargetBack.L_end
+        weight: 1
+      - path: AnimalArmature/Body/PoleTargetBack.R
+        weight: 1
+      - path: AnimalArmature/Body/PoleTargetBack.R/PoleTargetBack.R_end
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.L
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.L/FFB.L
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.L/FFB.L/FFB.L_end
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.R
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.R/FFB.R
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.R/FFB.R/FFB.R_end
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.L
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.L/FF.L
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.L/FF.L/FF.L_end
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.R
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.R/FF.R
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.R/FF.R/FF.R_end
+        weight: 1
+      - path: Fox
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Jump_ToIdle
+      takeName: Jump_ToIdle
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: AnimalArmature
+        weight: 1
+      - path: AnimalArmature/Body
+        weight: 1
+      - path: AnimalArmature/Body/Back
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L/BackLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L/BackLeg.L/BackUpperLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L/BackLeg.L/BackUpperLeg.L/BackLowerLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L/BackLeg.L/BackUpperLeg.L/BackLowerLeg.L/BackLowerLeg.L_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R/BackLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R/BackLeg.R/BackUpperLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R/BackLeg.R/BackUpperLeg.R/BackLowerLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R/BackLeg.R/BackUpperLeg.R/BackLowerLeg.R/BackLowerLeg.R_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6/Tail7
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6/Tail7/Tail8
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6/Tail7/Tail8/Tail8_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.L/FrontUpperLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.L/FrontUpperLeg.L/FrontLowerLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.L/FrontUpperLeg.L/FrontLowerLeg.L/FrontLowerLeg.L_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.R/FrontUpperLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.R/FrontUpperLeg.R/FrontLowerLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.R/FrontUpperLeg.R/FrontLowerLeg.R/FrontLowerLeg.R_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L/Ear2.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L/Ear2.L/Ear3.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L/Ear2.L/Ear3.L/Ear4.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L/Ear2.L/Ear3.L/Ear4.L/Ear4.L_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R/Ear2.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R/Ear2.R/Ear3.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R/Ear2.R/Ear3.R/Ear4.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R/Ear2.R/Ear3.R/Ear4.R/Ear4.R_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Head
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Head/Head_end
+        weight: 1
+      - path: AnimalArmature/Body/PoleTarget.L
+        weight: 1
+      - path: AnimalArmature/Body/PoleTarget.L/PoleTarget.L_end
+        weight: 1
+      - path: AnimalArmature/Body/PoleTarget.R
+        weight: 1
+      - path: AnimalArmature/Body/PoleTarget.R/PoleTarget.R_end
+        weight: 1
+      - path: AnimalArmature/Body/PoleTargetBack.L
+        weight: 1
+      - path: AnimalArmature/Body/PoleTargetBack.L/PoleTargetBack.L_end
+        weight: 1
+      - path: AnimalArmature/Body/PoleTargetBack.R
+        weight: 1
+      - path: AnimalArmature/Body/PoleTargetBack.R/PoleTargetBack.R_end
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.L
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.L/FFB.L
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.L/FFB.L/FFB.L_end
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.R
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.R/FFB.R
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.R/FFB.R/FFB.R_end
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.L
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.L/FF.L
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.L/FF.L/FF.L_end
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.R
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.R/FF.R
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.R/FF.R/FF.R_end
+        weight: 1
+      - path: Fox
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Walk
+      takeName: Walk
+      firstFrame: 0
+      lastFrame: 32
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: AnimalArmature
+        weight: 1
+      - path: AnimalArmature/Body
+        weight: 1
+      - path: AnimalArmature/Body/Back
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L/BackLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L/BackLeg.L/BackUpperLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L/BackLeg.L/BackUpperLeg.L/BackLowerLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L/BackLeg.L/BackUpperLeg.L/BackLowerLeg.L/BackLowerLeg.L_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R/BackLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R/BackLeg.R/BackUpperLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R/BackLeg.R/BackUpperLeg.R/BackLowerLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R/BackLeg.R/BackUpperLeg.R/BackLowerLeg.R/BackLowerLeg.R_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6/Tail7
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6/Tail7/Tail8
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6/Tail7/Tail8/Tail8_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.L/FrontUpperLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.L/FrontUpperLeg.L/FrontLowerLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.L/FrontUpperLeg.L/FrontLowerLeg.L/FrontLowerLeg.L_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.R/FrontUpperLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.R/FrontUpperLeg.R/FrontLowerLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.R/FrontUpperLeg.R/FrontLowerLeg.R/FrontLowerLeg.R_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L/Ear2.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L/Ear2.L/Ear3.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L/Ear2.L/Ear3.L/Ear4.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L/Ear2.L/Ear3.L/Ear4.L/Ear4.L_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R/Ear2.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R/Ear2.R/Ear3.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R/Ear2.R/Ear3.R/Ear4.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R/Ear2.R/Ear3.R/Ear4.R/Ear4.R_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Head
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Head/Head_end
+        weight: 1
+      - path: AnimalArmature/Body/PoleTarget.L
+        weight: 1
+      - path: AnimalArmature/Body/PoleTarget.L/PoleTarget.L_end
+        weight: 1
+      - path: AnimalArmature/Body/PoleTarget.R
+        weight: 1
+      - path: AnimalArmature/Body/PoleTarget.R/PoleTarget.R_end
+        weight: 1
+      - path: AnimalArmature/Body/PoleTargetBack.L
+        weight: 1
+      - path: AnimalArmature/Body/PoleTargetBack.L/PoleTargetBack.L_end
+        weight: 1
+      - path: AnimalArmature/Body/PoleTargetBack.R
+        weight: 1
+      - path: AnimalArmature/Body/PoleTargetBack.R/PoleTargetBack.R_end
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.L
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.L/FFB.L
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.L/FFB.L/FFB.L_end
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.R
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.R/FFB.R
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.R/FFB.R/FFB.R_end
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.L
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.L/FF.L
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.L/FF.L/FF.L_end
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.R
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.R/FF.R
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.R/FF.R/FF.R_end
+        weight: 1
+      - path: Fox
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Idle_2_HeadLow
+      takeName: Idle_2_HeadLow
+      firstFrame: 0
+      lastFrame: 120
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: AnimalArmature
+        weight: 1
+      - path: AnimalArmature/Body
+        weight: 1
+      - path: AnimalArmature/Body/Back
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L/BackLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L/BackLeg.L/BackUpperLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L/BackLeg.L/BackUpperLeg.L/BackLowerLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L/BackLeg.L/BackUpperLeg.L/BackLowerLeg.L/BackLowerLeg.L_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R/BackLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R/BackLeg.R/BackUpperLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R/BackLeg.R/BackUpperLeg.R/BackLowerLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R/BackLeg.R/BackUpperLeg.R/BackLowerLeg.R/BackLowerLeg.R_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6/Tail7
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6/Tail7/Tail8
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6/Tail7/Tail8/Tail8_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.L/FrontUpperLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.L/FrontUpperLeg.L/FrontLowerLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.L/FrontUpperLeg.L/FrontLowerLeg.L/FrontLowerLeg.L_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.R/FrontUpperLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.R/FrontUpperLeg.R/FrontLowerLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.R/FrontUpperLeg.R/FrontLowerLeg.R/FrontLowerLeg.R_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L/Ear2.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L/Ear2.L/Ear3.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L/Ear2.L/Ear3.L/Ear4.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L/Ear2.L/Ear3.L/Ear4.L/Ear4.L_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R/Ear2.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R/Ear2.R/Ear3.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R/Ear2.R/Ear3.R/Ear4.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R/Ear2.R/Ear3.R/Ear4.R/Ear4.R_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Head
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Head/Head_end
+        weight: 1
+      - path: AnimalArmature/Body/PoleTarget.L
+        weight: 1
+      - path: AnimalArmature/Body/PoleTarget.L/PoleTarget.L_end
+        weight: 1
+      - path: AnimalArmature/Body/PoleTarget.R
+        weight: 1
+      - path: AnimalArmature/Body/PoleTarget.R/PoleTarget.R_end
+        weight: 1
+      - path: AnimalArmature/Body/PoleTargetBack.L
+        weight: 1
+      - path: AnimalArmature/Body/PoleTargetBack.L/PoleTargetBack.L_end
+        weight: 1
+      - path: AnimalArmature/Body/PoleTargetBack.R
+        weight: 1
+      - path: AnimalArmature/Body/PoleTargetBack.R/PoleTargetBack.R_end
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.L
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.L/FFB.L
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.L/FFB.L/FFB.L_end
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.R
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.R/FFB.R
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.R/FFB.R/FFB.R_end
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.L
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.L/FF.L
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.L/FF.L/FF.L_end
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.R
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.R/FF.R
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.R/FF.R/FF.R_end
+        weight: 1
+      - path: Fox
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Idle_2
+      takeName: Idle_2
+      firstFrame: 0
+      lastFrame: 100
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: AnimalArmature
+        weight: 1
+      - path: AnimalArmature/Body
+        weight: 1
+      - path: AnimalArmature/Body/Back
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L/BackLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L/BackLeg.L/BackUpperLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L/BackLeg.L/BackUpperLeg.L/BackLowerLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L/BackLeg.L/BackUpperLeg.L/BackLowerLeg.L/BackLowerLeg.L_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R/BackLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R/BackLeg.R/BackUpperLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R/BackLeg.R/BackUpperLeg.R/BackLowerLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R/BackLeg.R/BackUpperLeg.R/BackLowerLeg.R/BackLowerLeg.R_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6/Tail7
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6/Tail7/Tail8
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6/Tail7/Tail8/Tail8_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.L/FrontUpperLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.L/FrontUpperLeg.L/FrontLowerLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.L/FrontUpperLeg.L/FrontLowerLeg.L/FrontLowerLeg.L_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.R/FrontUpperLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.R/FrontUpperLeg.R/FrontLowerLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.R/FrontUpperLeg.R/FrontLowerLeg.R/FrontLowerLeg.R_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L/Ear2.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L/Ear2.L/Ear3.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L/Ear2.L/Ear3.L/Ear4.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L/Ear2.L/Ear3.L/Ear4.L/Ear4.L_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R/Ear2.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R/Ear2.R/Ear3.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R/Ear2.R/Ear3.R/Ear4.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R/Ear2.R/Ear3.R/Ear4.R/Ear4.R_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Head
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Head/Head_end
+        weight: 1
+      - path: AnimalArmature/Body/PoleTarget.L
+        weight: 1
+      - path: AnimalArmature/Body/PoleTarget.L/PoleTarget.L_end
+        weight: 1
+      - path: AnimalArmature/Body/PoleTarget.R
+        weight: 1
+      - path: AnimalArmature/Body/PoleTarget.R/PoleTarget.R_end
+        weight: 1
+      - path: AnimalArmature/Body/PoleTargetBack.L
+        weight: 1
+      - path: AnimalArmature/Body/PoleTargetBack.L/PoleTargetBack.L_end
+        weight: 1
+      - path: AnimalArmature/Body/PoleTargetBack.R
+        weight: 1
+      - path: AnimalArmature/Body/PoleTargetBack.R/PoleTargetBack.R_end
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.L
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.L/FFB.L
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.L/FFB.L/FFB.L_end
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.R
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.R/FFB.R
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.R/FFB.R/FFB.R_end
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.L
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.L/FF.L
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.L/FF.L/FF.L_end
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.R
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.R/FF.R
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.R/FF.R/FF.R_end
+        weight: 1
+      - path: Fox
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Idle
+      takeName: Idle
+      firstFrame: 0
+      lastFrame: 100
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: AnimalArmature
+        weight: 1
+      - path: AnimalArmature/Body
+        weight: 1
+      - path: AnimalArmature/Body/Back
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L/BackLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L/BackLeg.L/BackUpperLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L/BackLeg.L/BackUpperLeg.L/BackLowerLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L/BackLeg.L/BackUpperLeg.L/BackLowerLeg.L/BackLowerLeg.L_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R/BackLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R/BackLeg.R/BackUpperLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R/BackLeg.R/BackUpperLeg.R/BackLowerLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R/BackLeg.R/BackUpperLeg.R/BackLowerLeg.R/BackLowerLeg.R_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6/Tail7
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6/Tail7/Tail8
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6/Tail7/Tail8/Tail8_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.L/FrontUpperLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.L/FrontUpperLeg.L/FrontLowerLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.L/FrontUpperLeg.L/FrontLowerLeg.L/FrontLowerLeg.L_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.R/FrontUpperLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.R/FrontUpperLeg.R/FrontLowerLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.R/FrontUpperLeg.R/FrontLowerLeg.R/FrontLowerLeg.R_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L/Ear2.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L/Ear2.L/Ear3.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L/Ear2.L/Ear3.L/Ear4.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L/Ear2.L/Ear3.L/Ear4.L/Ear4.L_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R/Ear2.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R/Ear2.R/Ear3.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R/Ear2.R/Ear3.R/Ear4.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R/Ear2.R/Ear3.R/Ear4.R/Ear4.R_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Head
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Head/Head_end
+        weight: 1
+      - path: AnimalArmature/Body/PoleTarget.L
+        weight: 1
+      - path: AnimalArmature/Body/PoleTarget.L/PoleTarget.L_end
+        weight: 1
+      - path: AnimalArmature/Body/PoleTarget.R
+        weight: 1
+      - path: AnimalArmature/Body/PoleTarget.R/PoleTarget.R_end
+        weight: 1
+      - path: AnimalArmature/Body/PoleTargetBack.L
+        weight: 1
+      - path: AnimalArmature/Body/PoleTargetBack.L/PoleTargetBack.L_end
+        weight: 1
+      - path: AnimalArmature/Body/PoleTargetBack.R
+        weight: 1
+      - path: AnimalArmature/Body/PoleTargetBack.R/PoleTargetBack.R_end
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.L
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.L/FFB.L
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.L/FFB.L/FFB.L_end
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.R
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.R/FFB.R
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.R/FFB.R/FFB.R_end
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.L
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.L/FF.L
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.L/FF.L/FF.L_end
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.R
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.R/FF.R
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.R/FF.R/FF.R_end
+        weight: 1
+      - path: Fox
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: AnimalArmature|Attack
+      takeName: AnimalArmature|Attack
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: AnimalArmature
+        weight: 1
+      - path: AnimalArmature/Body
+        weight: 1
+      - path: AnimalArmature/Body/Back
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L/BackLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L/BackLeg.L/BackUpperLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L/BackLeg.L/BackUpperLeg.L/BackLowerLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L/BackLeg.L/BackUpperLeg.L/BackLowerLeg.L/BackLowerLeg.L_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R/BackLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R/BackLeg.R/BackUpperLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R/BackLeg.R/BackUpperLeg.R/BackLowerLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R/BackLeg.R/BackUpperLeg.R/BackLowerLeg.R/BackLowerLeg.R_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6/Tail7
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6/Tail7/Tail8
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6/Tail7/Tail8/Tail8_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.L/FrontUpperLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.L/FrontUpperLeg.L/FrontLowerLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.L/FrontUpperLeg.L/FrontLowerLeg.L/FrontLowerLeg.L_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.R/FrontUpperLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.R/FrontUpperLeg.R/FrontLowerLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.R/FrontUpperLeg.R/FrontLowerLeg.R/FrontLowerLeg.R_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L/Ear2.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L/Ear2.L/Ear3.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L/Ear2.L/Ear3.L/Ear4.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L/Ear2.L/Ear3.L/Ear4.L/Ear4.L_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R/Ear2.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R/Ear2.R/Ear3.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R/Ear2.R/Ear3.R/Ear4.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R/Ear2.R/Ear3.R/Ear4.R/Ear4.R_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Head
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Head/Head_end
+        weight: 1
+      - path: AnimalArmature/Body/PoleTarget.L
+        weight: 1
+      - path: AnimalArmature/Body/PoleTarget.L/PoleTarget.L_end
+        weight: 1
+      - path: AnimalArmature/Body/PoleTarget.R
+        weight: 1
+      - path: AnimalArmature/Body/PoleTarget.R/PoleTarget.R_end
+        weight: 1
+      - path: AnimalArmature/Body/PoleTargetBack.L
+        weight: 1
+      - path: AnimalArmature/Body/PoleTargetBack.L/PoleTargetBack.L_end
+        weight: 1
+      - path: AnimalArmature/Body/PoleTargetBack.R
+        weight: 1
+      - path: AnimalArmature/Body/PoleTargetBack.R/PoleTargetBack.R_end
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.L
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.L/FFB.L
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.L/FFB.L/FFB.L_end
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.R
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.R/FFB.R
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.R/FFB.R/FFB.R_end
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.L
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.L/FF.L
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.L/FF.L/FF.L_end
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.R
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.R/FF.R
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.R/FF.R/FF.R_end
+        weight: 1
+      - path: Fox
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: AnimalArmature|Death
+      takeName: AnimalArmature|Death
+      firstFrame: 0
+      lastFrame: 32
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: AnimalArmature
+        weight: 1
+      - path: AnimalArmature/Body
+        weight: 1
+      - path: AnimalArmature/Body/Back
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L/BackLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L/BackLeg.L/BackUpperLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L/BackLeg.L/BackUpperLeg.L/BackLowerLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L/BackLeg.L/BackUpperLeg.L/BackLowerLeg.L/BackLowerLeg.L_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R/BackLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R/BackLeg.R/BackUpperLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R/BackLeg.R/BackUpperLeg.R/BackLowerLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R/BackLeg.R/BackUpperLeg.R/BackLowerLeg.R/BackLowerLeg.R_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6/Tail7
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6/Tail7/Tail8
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6/Tail7/Tail8/Tail8_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.L/FrontUpperLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.L/FrontUpperLeg.L/FrontLowerLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.L/FrontUpperLeg.L/FrontLowerLeg.L/FrontLowerLeg.L_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.R/FrontUpperLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.R/FrontUpperLeg.R/FrontLowerLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.R/FrontUpperLeg.R/FrontLowerLeg.R/FrontLowerLeg.R_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L/Ear2.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L/Ear2.L/Ear3.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L/Ear2.L/Ear3.L/Ear4.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L/Ear2.L/Ear3.L/Ear4.L/Ear4.L_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R/Ear2.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R/Ear2.R/Ear3.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R/Ear2.R/Ear3.R/Ear4.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R/Ear2.R/Ear3.R/Ear4.R/Ear4.R_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Head
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Head/Head_end
+        weight: 1
+      - path: AnimalArmature/Body/PoleTarget.L
+        weight: 1
+      - path: AnimalArmature/Body/PoleTarget.L/PoleTarget.L_end
+        weight: 1
+      - path: AnimalArmature/Body/PoleTarget.R
+        weight: 1
+      - path: AnimalArmature/Body/PoleTarget.R/PoleTarget.R_end
+        weight: 1
+      - path: AnimalArmature/Body/PoleTargetBack.L
+        weight: 1
+      - path: AnimalArmature/Body/PoleTargetBack.L/PoleTargetBack.L_end
+        weight: 1
+      - path: AnimalArmature/Body/PoleTargetBack.R
+        weight: 1
+      - path: AnimalArmature/Body/PoleTargetBack.R/PoleTargetBack.R_end
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.L
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.L/FFB.L
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.L/FFB.L/FFB.L_end
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.R
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.R/FFB.R
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.R/FFB.R/FFB.R_end
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.L
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.L/FF.L
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.L/FF.L/FF.L_end
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.R
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.R/FF.R
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.R/FF.R/FF.R_end
+        weight: 1
+      - path: Fox
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: AnimalArmature|Eating
+      takeName: AnimalArmature|Eating
+      firstFrame: 0
+      lastFrame: 76
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: AnimalArmature
+        weight: 1
+      - path: AnimalArmature/Body
+        weight: 1
+      - path: AnimalArmature/Body/Back
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L/BackLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L/BackLeg.L/BackUpperLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L/BackLeg.L/BackUpperLeg.L/BackLowerLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L/BackLeg.L/BackUpperLeg.L/BackLowerLeg.L/BackLowerLeg.L_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R/BackLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R/BackLeg.R/BackUpperLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R/BackLeg.R/BackUpperLeg.R/BackLowerLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R/BackLeg.R/BackUpperLeg.R/BackLowerLeg.R/BackLowerLeg.R_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6/Tail7
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6/Tail7/Tail8
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6/Tail7/Tail8/Tail8_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.L/FrontUpperLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.L/FrontUpperLeg.L/FrontLowerLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.L/FrontUpperLeg.L/FrontLowerLeg.L/FrontLowerLeg.L_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.R/FrontUpperLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.R/FrontUpperLeg.R/FrontLowerLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.R/FrontUpperLeg.R/FrontLowerLeg.R/FrontLowerLeg.R_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L/Ear2.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L/Ear2.L/Ear3.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L/Ear2.L/Ear3.L/Ear4.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L/Ear2.L/Ear3.L/Ear4.L/Ear4.L_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R/Ear2.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R/Ear2.R/Ear3.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R/Ear2.R/Ear3.R/Ear4.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R/Ear2.R/Ear3.R/Ear4.R/Ear4.R_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Head
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Head/Head_end
+        weight: 1
+      - path: AnimalArmature/Body/PoleTarget.L
+        weight: 1
+      - path: AnimalArmature/Body/PoleTarget.L/PoleTarget.L_end
+        weight: 1
+      - path: AnimalArmature/Body/PoleTarget.R
+        weight: 1
+      - path: AnimalArmature/Body/PoleTarget.R/PoleTarget.R_end
+        weight: 1
+      - path: AnimalArmature/Body/PoleTargetBack.L
+        weight: 1
+      - path: AnimalArmature/Body/PoleTargetBack.L/PoleTargetBack.L_end
+        weight: 1
+      - path: AnimalArmature/Body/PoleTargetBack.R
+        weight: 1
+      - path: AnimalArmature/Body/PoleTargetBack.R/PoleTargetBack.R_end
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.L
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.L/FFB.L
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.L/FFB.L/FFB.L_end
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.R
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.R/FFB.R
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.R/FFB.R/FFB.R_end
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.L
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.L/FF.L
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.L/FF.L/FF.L_end
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.R
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.R/FF.R
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.R/FF.R/FF.R_end
+        weight: 1
+      - path: Fox
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: AnimalArmature|Gallop
+      takeName: AnimalArmature|Gallop
+      firstFrame: 0
+      lastFrame: 17
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: AnimalArmature
+        weight: 1
+      - path: AnimalArmature/Body
+        weight: 1
+      - path: AnimalArmature/Body/Back
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L/BackLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L/BackLeg.L/BackUpperLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L/BackLeg.L/BackUpperLeg.L/BackLowerLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L/BackLeg.L/BackUpperLeg.L/BackLowerLeg.L/BackLowerLeg.L_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R/BackLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R/BackLeg.R/BackUpperLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R/BackLeg.R/BackUpperLeg.R/BackLowerLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R/BackLeg.R/BackUpperLeg.R/BackLowerLeg.R/BackLowerLeg.R_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6/Tail7
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6/Tail7/Tail8
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6/Tail7/Tail8/Tail8_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.L/FrontUpperLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.L/FrontUpperLeg.L/FrontLowerLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.L/FrontUpperLeg.L/FrontLowerLeg.L/FrontLowerLeg.L_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.R/FrontUpperLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.R/FrontUpperLeg.R/FrontLowerLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.R/FrontUpperLeg.R/FrontLowerLeg.R/FrontLowerLeg.R_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L/Ear2.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L/Ear2.L/Ear3.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L/Ear2.L/Ear3.L/Ear4.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L/Ear2.L/Ear3.L/Ear4.L/Ear4.L_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R/Ear2.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R/Ear2.R/Ear3.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R/Ear2.R/Ear3.R/Ear4.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R/Ear2.R/Ear3.R/Ear4.R/Ear4.R_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Head
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Head/Head_end
+        weight: 1
+      - path: AnimalArmature/Body/PoleTarget.L
+        weight: 1
+      - path: AnimalArmature/Body/PoleTarget.L/PoleTarget.L_end
+        weight: 1
+      - path: AnimalArmature/Body/PoleTarget.R
+        weight: 1
+      - path: AnimalArmature/Body/PoleTarget.R/PoleTarget.R_end
+        weight: 1
+      - path: AnimalArmature/Body/PoleTargetBack.L
+        weight: 1
+      - path: AnimalArmature/Body/PoleTargetBack.L/PoleTargetBack.L_end
+        weight: 1
+      - path: AnimalArmature/Body/PoleTargetBack.R
+        weight: 1
+      - path: AnimalArmature/Body/PoleTargetBack.R/PoleTargetBack.R_end
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.L
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.L/FFB.L
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.L/FFB.L/FFB.L_end
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.R
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.R/FFB.R
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.R/FFB.R/FFB.R_end
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.L
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.L/FF.L
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.L/FF.L/FF.L_end
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.R
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.R/FF.R
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.R/FF.R/FF.R_end
+        weight: 1
+      - path: Fox
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: AnimalArmature|Gallop_Jump
+      takeName: AnimalArmature|Gallop_Jump
+      firstFrame: 0
+      lastFrame: 28
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: AnimalArmature
+        weight: 1
+      - path: AnimalArmature/Body
+        weight: 1
+      - path: AnimalArmature/Body/Back
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L/BackLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L/BackLeg.L/BackUpperLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L/BackLeg.L/BackUpperLeg.L/BackLowerLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L/BackLeg.L/BackUpperLeg.L/BackLowerLeg.L/BackLowerLeg.L_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R/BackLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R/BackLeg.R/BackUpperLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R/BackLeg.R/BackUpperLeg.R/BackLowerLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R/BackLeg.R/BackUpperLeg.R/BackLowerLeg.R/BackLowerLeg.R_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6/Tail7
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6/Tail7/Tail8
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6/Tail7/Tail8/Tail8_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.L/FrontUpperLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.L/FrontUpperLeg.L/FrontLowerLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.L/FrontUpperLeg.L/FrontLowerLeg.L/FrontLowerLeg.L_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.R/FrontUpperLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.R/FrontUpperLeg.R/FrontLowerLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.R/FrontUpperLeg.R/FrontLowerLeg.R/FrontLowerLeg.R_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L/Ear2.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L/Ear2.L/Ear3.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L/Ear2.L/Ear3.L/Ear4.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L/Ear2.L/Ear3.L/Ear4.L/Ear4.L_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R/Ear2.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R/Ear2.R/Ear3.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R/Ear2.R/Ear3.R/Ear4.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R/Ear2.R/Ear3.R/Ear4.R/Ear4.R_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Head
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Head/Head_end
+        weight: 1
+      - path: AnimalArmature/Body/PoleTarget.L
+        weight: 1
+      - path: AnimalArmature/Body/PoleTarget.L/PoleTarget.L_end
+        weight: 1
+      - path: AnimalArmature/Body/PoleTarget.R
+        weight: 1
+      - path: AnimalArmature/Body/PoleTarget.R/PoleTarget.R_end
+        weight: 1
+      - path: AnimalArmature/Body/PoleTargetBack.L
+        weight: 1
+      - path: AnimalArmature/Body/PoleTargetBack.L/PoleTargetBack.L_end
+        weight: 1
+      - path: AnimalArmature/Body/PoleTargetBack.R
+        weight: 1
+      - path: AnimalArmature/Body/PoleTargetBack.R/PoleTargetBack.R_end
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.L
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.L/FFB.L
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.L/FFB.L/FFB.L_end
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.R
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.R/FFB.R
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.R/FFB.R/FFB.R_end
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.L
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.L/FF.L
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.L/FF.L/FF.L_end
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.R
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.R/FF.R
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.R/FF.R/FF.R_end
+        weight: 1
+      - path: Fox
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: AnimalArmature|Idle
+      takeName: AnimalArmature|Idle
+      firstFrame: 0
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: AnimalArmature
+        weight: 1
+      - path: AnimalArmature/Body
+        weight: 1
+      - path: AnimalArmature/Body/Back
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L/BackLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L/BackLeg.L/BackUpperLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L/BackLeg.L/BackUpperLeg.L/BackLowerLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L/BackLeg.L/BackUpperLeg.L/BackLowerLeg.L/BackLowerLeg.L_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R/BackLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R/BackLeg.R/BackUpperLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R/BackLeg.R/BackUpperLeg.R/BackLowerLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R/BackLeg.R/BackUpperLeg.R/BackLowerLeg.R/BackLowerLeg.R_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6/Tail7
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6/Tail7/Tail8
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6/Tail7/Tail8/Tail8_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.L/FrontUpperLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.L/FrontUpperLeg.L/FrontLowerLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.L/FrontUpperLeg.L/FrontLowerLeg.L/FrontLowerLeg.L_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.R/FrontUpperLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.R/FrontUpperLeg.R/FrontLowerLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.R/FrontUpperLeg.R/FrontLowerLeg.R/FrontLowerLeg.R_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L/Ear2.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L/Ear2.L/Ear3.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L/Ear2.L/Ear3.L/Ear4.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L/Ear2.L/Ear3.L/Ear4.L/Ear4.L_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R/Ear2.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R/Ear2.R/Ear3.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R/Ear2.R/Ear3.R/Ear4.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R/Ear2.R/Ear3.R/Ear4.R/Ear4.R_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Head
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Head/Head_end
+        weight: 1
+      - path: AnimalArmature/Body/PoleTarget.L
+        weight: 1
+      - path: AnimalArmature/Body/PoleTarget.L/PoleTarget.L_end
+        weight: 1
+      - path: AnimalArmature/Body/PoleTarget.R
+        weight: 1
+      - path: AnimalArmature/Body/PoleTarget.R/PoleTarget.R_end
+        weight: 1
+      - path: AnimalArmature/Body/PoleTargetBack.L
+        weight: 1
+      - path: AnimalArmature/Body/PoleTargetBack.L/PoleTargetBack.L_end
+        weight: 1
+      - path: AnimalArmature/Body/PoleTargetBack.R
+        weight: 1
+      - path: AnimalArmature/Body/PoleTargetBack.R/PoleTargetBack.R_end
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.L
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.L/FFB.L
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.L/FFB.L/FFB.L_end
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.R
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.R/FFB.R
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.R/FFB.R/FFB.R_end
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.L
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.L/FF.L
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.L/FF.L/FF.L_end
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.R
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.R/FF.R
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.R/FF.R/FF.R_end
+        weight: 1
+      - path: Fox
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: AnimalArmature|Idle_2
+      takeName: AnimalArmature|Idle_2
+      firstFrame: 0
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: AnimalArmature
+        weight: 1
+      - path: AnimalArmature/Body
+        weight: 1
+      - path: AnimalArmature/Body/Back
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L/BackLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L/BackLeg.L/BackUpperLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L/BackLeg.L/BackUpperLeg.L/BackLowerLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L/BackLeg.L/BackUpperLeg.L/BackLowerLeg.L/BackLowerLeg.L_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R/BackLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R/BackLeg.R/BackUpperLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R/BackLeg.R/BackUpperLeg.R/BackLowerLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R/BackLeg.R/BackUpperLeg.R/BackLowerLeg.R/BackLowerLeg.R_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6/Tail7
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6/Tail7/Tail8
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6/Tail7/Tail8/Tail8_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.L/FrontUpperLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.L/FrontUpperLeg.L/FrontLowerLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.L/FrontUpperLeg.L/FrontLowerLeg.L/FrontLowerLeg.L_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.R/FrontUpperLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.R/FrontUpperLeg.R/FrontLowerLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.R/FrontUpperLeg.R/FrontLowerLeg.R/FrontLowerLeg.R_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L/Ear2.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L/Ear2.L/Ear3.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L/Ear2.L/Ear3.L/Ear4.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L/Ear2.L/Ear3.L/Ear4.L/Ear4.L_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R/Ear2.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R/Ear2.R/Ear3.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R/Ear2.R/Ear3.R/Ear4.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R/Ear2.R/Ear3.R/Ear4.R/Ear4.R_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Head
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Head/Head_end
+        weight: 1
+      - path: AnimalArmature/Body/PoleTarget.L
+        weight: 1
+      - path: AnimalArmature/Body/PoleTarget.L/PoleTarget.L_end
+        weight: 1
+      - path: AnimalArmature/Body/PoleTarget.R
+        weight: 1
+      - path: AnimalArmature/Body/PoleTarget.R/PoleTarget.R_end
+        weight: 1
+      - path: AnimalArmature/Body/PoleTargetBack.L
+        weight: 1
+      - path: AnimalArmature/Body/PoleTargetBack.L/PoleTargetBack.L_end
+        weight: 1
+      - path: AnimalArmature/Body/PoleTargetBack.R
+        weight: 1
+      - path: AnimalArmature/Body/PoleTargetBack.R/PoleTargetBack.R_end
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.L
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.L/FFB.L
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.L/FFB.L/FFB.L_end
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.R
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.R/FFB.R
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.R/FFB.R/FFB.R_end
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.L
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.L/FF.L
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.L/FF.L/FF.L_end
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.R
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.R/FF.R
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.R/FF.R/FF.R_end
+        weight: 1
+      - path: Fox
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: AnimalArmature|Idle_2_HeadLow
+      takeName: AnimalArmature|Idle_2_HeadLow
+      firstFrame: 0
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: AnimalArmature
+        weight: 1
+      - path: AnimalArmature/Body
+        weight: 1
+      - path: AnimalArmature/Body/Back
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L/BackLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L/BackLeg.L/BackUpperLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L/BackLeg.L/BackUpperLeg.L/BackLowerLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L/BackLeg.L/BackUpperLeg.L/BackLowerLeg.L/BackLowerLeg.L_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R/BackLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R/BackLeg.R/BackUpperLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R/BackLeg.R/BackUpperLeg.R/BackLowerLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R/BackLeg.R/BackUpperLeg.R/BackLowerLeg.R/BackLowerLeg.R_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6/Tail7
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6/Tail7/Tail8
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6/Tail7/Tail8/Tail8_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.L/FrontUpperLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.L/FrontUpperLeg.L/FrontLowerLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.L/FrontUpperLeg.L/FrontLowerLeg.L/FrontLowerLeg.L_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.R/FrontUpperLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.R/FrontUpperLeg.R/FrontLowerLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.R/FrontUpperLeg.R/FrontLowerLeg.R/FrontLowerLeg.R_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L/Ear2.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L/Ear2.L/Ear3.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L/Ear2.L/Ear3.L/Ear4.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L/Ear2.L/Ear3.L/Ear4.L/Ear4.L_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R/Ear2.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R/Ear2.R/Ear3.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R/Ear2.R/Ear3.R/Ear4.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R/Ear2.R/Ear3.R/Ear4.R/Ear4.R_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Head
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Head/Head_end
+        weight: 1
+      - path: AnimalArmature/Body/PoleTarget.L
+        weight: 1
+      - path: AnimalArmature/Body/PoleTarget.L/PoleTarget.L_end
+        weight: 1
+      - path: AnimalArmature/Body/PoleTarget.R
+        weight: 1
+      - path: AnimalArmature/Body/PoleTarget.R/PoleTarget.R_end
+        weight: 1
+      - path: AnimalArmature/Body/PoleTargetBack.L
+        weight: 1
+      - path: AnimalArmature/Body/PoleTargetBack.L/PoleTargetBack.L_end
+        weight: 1
+      - path: AnimalArmature/Body/PoleTargetBack.R
+        weight: 1
+      - path: AnimalArmature/Body/PoleTargetBack.R/PoleTargetBack.R_end
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.L
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.L/FFB.L
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.L/FFB.L/FFB.L_end
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.R
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.R/FFB.R
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.R/FFB.R/FFB.R_end
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.L
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.L/FF.L
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.L/FF.L/FF.L_end
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.R
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.R/FF.R
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.R/FF.R/FF.R_end
+        weight: 1
+      - path: Fox
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: AnimalArmature|Idle_HitReact_Left
+      takeName: AnimalArmature|Idle_HitReact_Left
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: AnimalArmature
+        weight: 1
+      - path: AnimalArmature/Body
+        weight: 1
+      - path: AnimalArmature/Body/Back
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L/BackLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L/BackLeg.L/BackUpperLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L/BackLeg.L/BackUpperLeg.L/BackLowerLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L/BackLeg.L/BackUpperLeg.L/BackLowerLeg.L/BackLowerLeg.L_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R/BackLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R/BackLeg.R/BackUpperLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R/BackLeg.R/BackUpperLeg.R/BackLowerLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R/BackLeg.R/BackUpperLeg.R/BackLowerLeg.R/BackLowerLeg.R_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6/Tail7
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6/Tail7/Tail8
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6/Tail7/Tail8/Tail8_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.L/FrontUpperLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.L/FrontUpperLeg.L/FrontLowerLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.L/FrontUpperLeg.L/FrontLowerLeg.L/FrontLowerLeg.L_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.R/FrontUpperLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.R/FrontUpperLeg.R/FrontLowerLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.R/FrontUpperLeg.R/FrontLowerLeg.R/FrontLowerLeg.R_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L/Ear2.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L/Ear2.L/Ear3.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L/Ear2.L/Ear3.L/Ear4.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L/Ear2.L/Ear3.L/Ear4.L/Ear4.L_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R/Ear2.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R/Ear2.R/Ear3.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R/Ear2.R/Ear3.R/Ear4.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R/Ear2.R/Ear3.R/Ear4.R/Ear4.R_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Head
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Head/Head_end
+        weight: 1
+      - path: AnimalArmature/Body/PoleTarget.L
+        weight: 1
+      - path: AnimalArmature/Body/PoleTarget.L/PoleTarget.L_end
+        weight: 1
+      - path: AnimalArmature/Body/PoleTarget.R
+        weight: 1
+      - path: AnimalArmature/Body/PoleTarget.R/PoleTarget.R_end
+        weight: 1
+      - path: AnimalArmature/Body/PoleTargetBack.L
+        weight: 1
+      - path: AnimalArmature/Body/PoleTargetBack.L/PoleTargetBack.L_end
+        weight: 1
+      - path: AnimalArmature/Body/PoleTargetBack.R
+        weight: 1
+      - path: AnimalArmature/Body/PoleTargetBack.R/PoleTargetBack.R_end
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.L
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.L/FFB.L
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.L/FFB.L/FFB.L_end
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.R
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.R/FFB.R
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.R/FFB.R/FFB.R_end
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.L
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.L/FF.L
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.L/FF.L/FF.L_end
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.R
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.R/FF.R
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.R/FF.R/FF.R_end
+        weight: 1
+      - path: Fox
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: AnimalArmature|Idle_HitReact_Right
+      takeName: AnimalArmature|Idle_HitReact_Right
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: AnimalArmature
+        weight: 1
+      - path: AnimalArmature/Body
+        weight: 1
+      - path: AnimalArmature/Body/Back
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L/BackLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L/BackLeg.L/BackUpperLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L/BackLeg.L/BackUpperLeg.L/BackLowerLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L/BackLeg.L/BackUpperLeg.L/BackLowerLeg.L/BackLowerLeg.L_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R/BackLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R/BackLeg.R/BackUpperLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R/BackLeg.R/BackUpperLeg.R/BackLowerLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R/BackLeg.R/BackUpperLeg.R/BackLowerLeg.R/BackLowerLeg.R_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6/Tail7
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6/Tail7/Tail8
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6/Tail7/Tail8/Tail8_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.L/FrontUpperLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.L/FrontUpperLeg.L/FrontLowerLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.L/FrontUpperLeg.L/FrontLowerLeg.L/FrontLowerLeg.L_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.R/FrontUpperLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.R/FrontUpperLeg.R/FrontLowerLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.R/FrontUpperLeg.R/FrontLowerLeg.R/FrontLowerLeg.R_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L/Ear2.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L/Ear2.L/Ear3.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L/Ear2.L/Ear3.L/Ear4.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L/Ear2.L/Ear3.L/Ear4.L/Ear4.L_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R/Ear2.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R/Ear2.R/Ear3.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R/Ear2.R/Ear3.R/Ear4.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R/Ear2.R/Ear3.R/Ear4.R/Ear4.R_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Head
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Head/Head_end
+        weight: 1
+      - path: AnimalArmature/Body/PoleTarget.L
+        weight: 1
+      - path: AnimalArmature/Body/PoleTarget.L/PoleTarget.L_end
+        weight: 1
+      - path: AnimalArmature/Body/PoleTarget.R
+        weight: 1
+      - path: AnimalArmature/Body/PoleTarget.R/PoleTarget.R_end
+        weight: 1
+      - path: AnimalArmature/Body/PoleTargetBack.L
+        weight: 1
+      - path: AnimalArmature/Body/PoleTargetBack.L/PoleTargetBack.L_end
+        weight: 1
+      - path: AnimalArmature/Body/PoleTargetBack.R
+        weight: 1
+      - path: AnimalArmature/Body/PoleTargetBack.R/PoleTargetBack.R_end
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.L
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.L/FFB.L
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.L/FFB.L/FFB.L_end
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.R
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.R/FFB.R
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.R/FFB.R/FFB.R_end
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.L
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.L/FF.L
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.L/FF.L/FF.L_end
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.R
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.R/FF.R
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.R/FF.R/FF.R_end
+        weight: 1
+      - path: Fox
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: AnimalArmature|Jump_ToIdle
+      takeName: AnimalArmature|Jump_ToIdle
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: AnimalArmature
+        weight: 1
+      - path: AnimalArmature/Body
+        weight: 1
+      - path: AnimalArmature/Body/Back
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L/BackLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L/BackLeg.L/BackUpperLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L/BackLeg.L/BackUpperLeg.L/BackLowerLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L/BackLeg.L/BackUpperLeg.L/BackLowerLeg.L/BackLowerLeg.L_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R/BackLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R/BackLeg.R/BackUpperLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R/BackLeg.R/BackUpperLeg.R/BackLowerLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R/BackLeg.R/BackUpperLeg.R/BackLowerLeg.R/BackLowerLeg.R_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6/Tail7
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6/Tail7/Tail8
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6/Tail7/Tail8/Tail8_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.L/FrontUpperLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.L/FrontUpperLeg.L/FrontLowerLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.L/FrontUpperLeg.L/FrontLowerLeg.L/FrontLowerLeg.L_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.R/FrontUpperLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.R/FrontUpperLeg.R/FrontLowerLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.R/FrontUpperLeg.R/FrontLowerLeg.R/FrontLowerLeg.R_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L/Ear2.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L/Ear2.L/Ear3.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L/Ear2.L/Ear3.L/Ear4.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L/Ear2.L/Ear3.L/Ear4.L/Ear4.L_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R/Ear2.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R/Ear2.R/Ear3.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R/Ear2.R/Ear3.R/Ear4.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R/Ear2.R/Ear3.R/Ear4.R/Ear4.R_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Head
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Head/Head_end
+        weight: 1
+      - path: AnimalArmature/Body/PoleTarget.L
+        weight: 1
+      - path: AnimalArmature/Body/PoleTarget.L/PoleTarget.L_end
+        weight: 1
+      - path: AnimalArmature/Body/PoleTarget.R
+        weight: 1
+      - path: AnimalArmature/Body/PoleTarget.R/PoleTarget.R_end
+        weight: 1
+      - path: AnimalArmature/Body/PoleTargetBack.L
+        weight: 1
+      - path: AnimalArmature/Body/PoleTargetBack.L/PoleTargetBack.L_end
+        weight: 1
+      - path: AnimalArmature/Body/PoleTargetBack.R
+        weight: 1
+      - path: AnimalArmature/Body/PoleTargetBack.R/PoleTargetBack.R_end
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.L
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.L/FFB.L
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.L/FFB.L/FFB.L_end
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.R
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.R/FFB.R
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.R/FFB.R/FFB.R_end
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.L
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.L/FF.L
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.L/FF.L/FF.L_end
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.R
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.R/FF.R
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.R/FF.R/FF.R_end
+        weight: 1
+      - path: Fox
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: AnimalArmature|Walk
+      takeName: AnimalArmature|Walk
+      firstFrame: 0
+      lastFrame: 32
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: AnimalArmature
+        weight: 1
+      - path: AnimalArmature/Body
+        weight: 1
+      - path: AnimalArmature/Body/Back
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L/BackLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L/BackLeg.L/BackUpperLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L/BackLeg.L/BackUpperLeg.L/BackLowerLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.L/BackLeg.L/BackUpperLeg.L/BackLowerLeg.L/BackLowerLeg.L_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R/BackLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R/BackLeg.R/BackUpperLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R/BackLeg.R/BackUpperLeg.R/BackLowerLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/BackShoulder.R/BackLeg.R/BackUpperLeg.R/BackLowerLeg.R/BackLowerLeg.R_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6/Tail7
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6/Tail7/Tail8
+        weight: 1
+      - path: AnimalArmature/Body/Back/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6/Tail7/Tail8/Tail8_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.L/FrontUpperLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.L/FrontUpperLeg.L/FrontLowerLeg.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.L/FrontUpperLeg.L/FrontLowerLeg.L/FrontLowerLeg.L_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.R/FrontUpperLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.R/FrontUpperLeg.R/FrontLowerLeg.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/FrontShoulder.R/FrontUpperLeg.R/FrontLowerLeg.R/FrontLowerLeg.R_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L/Ear2.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L/Ear2.L/Ear3.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L/Ear2.L/Ear3.L/Ear4.L
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.L/Ear2.L/Ear3.L/Ear4.L/Ear4.L_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R/Ear2.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R/Ear2.R/Ear3.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R/Ear2.R/Ear3.R/Ear4.R
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Ear1.R/Ear2.R/Ear3.R/Ear4.R/Ear4.R_end
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Head
+        weight: 1
+      - path: AnimalArmature/Body/Back/Torso/Torso2/Torso3/Neck1/Neck2/Neck3/Head/Head_end
+        weight: 1
+      - path: AnimalArmature/Body/PoleTarget.L
+        weight: 1
+      - path: AnimalArmature/Body/PoleTarget.L/PoleTarget.L_end
+        weight: 1
+      - path: AnimalArmature/Body/PoleTarget.R
+        weight: 1
+      - path: AnimalArmature/Body/PoleTarget.R/PoleTarget.R_end
+        weight: 1
+      - path: AnimalArmature/Body/PoleTargetBack.L
+        weight: 1
+      - path: AnimalArmature/Body/PoleTargetBack.L/PoleTargetBack.L_end
+        weight: 1
+      - path: AnimalArmature/Body/PoleTargetBack.R
+        weight: 1
+      - path: AnimalArmature/Body/PoleTargetBack.R/PoleTargetBack.R_end
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.L
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.L/FFB.L
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.L/FFB.L/FFB.L_end
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.R
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.R/FFB.R
+        weight: 1
+      - path: AnimalArmature/IKBackLeg.R/FFB.R/FFB.R_end
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.L
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.L/FF.L
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.L/FF.L/FF.L_end
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.R
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.R/FF.R
+        weight: 1
+      - path: AnimalArmature/IKFrontLeg.R/FF.R/FF.R_end
+        weight: 1
+      - path: Fox
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  userData: 
